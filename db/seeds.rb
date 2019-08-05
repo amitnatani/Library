@@ -26,3 +26,6 @@ end
   description = Faker::Lorem.paragraph_by_chars
   Review.create(reviewer_name: reviewer_name, rating: rating, title: title, description: description, book_id: Book.find(Book.pluck(:id).sample).id)
 end
+
+
+User.create(name: "Test User", email: "testemail@mail.com", password: "Test#123", password_confirmation: "Test#123")
