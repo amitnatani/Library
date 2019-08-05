@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  port: 5432
+  pool: 5
+  min_messages: WARNING
+  username: postgres
+  password: postgres
+
+development:
+  <<: *default
+  database: library_dev
+
+test:
+  <<: *default
+  database: library_test
