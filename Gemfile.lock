@@ -125,7 +125,7 @@ GEM
     public_suffix (3.1.1)
     puma (4.3.8)
       nio4r (~> 2.0)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-cors (1.0.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -207,7 +207,7 @@ GEM
       railties (>= 5.0)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
